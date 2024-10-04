@@ -42,10 +42,10 @@ devDependencies:
     specifier: ^2.22.12
     version: 2.22.12(ts-node@10.9.2)(typescript@5.0.4)
   hardhat-gas-reporter:
-    specifier: ^1.0.8
+    specifier: ^1.0.10
     version: 1.0.10(hardhat@2.22.12)
   solidity-coverage:
-    specifier: ^0.8.0
+    specifier: ^0.8.13
     version: 0.8.13(hardhat@2.22.12)
   ts-node:
     specifier: '>=8.0.0'

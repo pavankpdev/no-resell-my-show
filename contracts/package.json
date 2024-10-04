@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:local": "npx hardhat test",
+    "test:coverage": "SOLIDITY_COVERAGE=true npx hardhat coverage"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +23,8 @@
     "@types/node": ">=18.0.0",
     "chai": "^4.2.0",
     "hardhat": "^2.22.12",
-    "hardhat-gas-reporter": "^1.0.8",
-    "solidity-coverage": "^0.8.0",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.13",
     "ts-node": ">=8.0.0",
     "typescript": "~5.0.4",
     "viem": "^2.7.6"

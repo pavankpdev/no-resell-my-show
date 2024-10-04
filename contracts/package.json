@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "npx solhint 'contracts/**/*.sol'",
+    "lint:fix": "npx solhint 'contracts/**/*.sol' --fix",
     "test:local": "npx hardhat test",
     "test:coverage": "SOLIDITY_COVERAGE=true npx hardhat coverage"
   },
@@ -24,6 +26,7 @@
     "chai": "^4.2.0",
     "hardhat": "^2.22.12",
     "hardhat-gas-reporter": "^1.0.10",
+    "solhint": "^5.0.3",
     "solidity-coverage": "^0.8.13",
     "ts-node": ">=8.0.0",
     "typescript": "~5.0.4",

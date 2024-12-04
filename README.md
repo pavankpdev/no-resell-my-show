@@ -48,3 +48,7 @@ Blockchain, with its **SoulBound Tokens (SBTs)** and **decentralized identities*
 ## 🎯 Conclusion
 
 NoResellMyShow is my way of asking: **What if BookMyShow had actually done something to fix the ticketing mess?** By leveraging blockchain and SoulBound Tokens, I’m reimagining a system where reselling and scalping are no longer an issue, and where fans get the tickets they deserve, with full transparency and fairness.
+
+
+
+
